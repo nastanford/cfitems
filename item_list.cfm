@@ -2,7 +2,7 @@
 <cfset itemService = new ItemService()>
 <cfset items = itemService.getItems()>
 
-<table>
+<table class="table table-striped">
     <thead>
         <tr>
             <th class="pe-3">Position</th>
