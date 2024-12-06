@@ -4,7 +4,7 @@ component{
   this.applicationTimeout = createTimeSpan( 30, 0, 0, 0 ); //30 days
   this.sessionStorage = true;
   this.sessionTimeout = createTimeSpan( 0, 0, 60, 0 ); // 1 hour 
-  this.datasource = "cfitems";
+  this.datasource = "test1234";
 
   function onApplicationStart(){}
   function onApplicationEnd( struct applicationScope ) {}
